@@ -1,0 +1,129 @@
+body{
+    background: #eda1f1;
+   
+}
+
+header{
+    background-color: rgb(247, 85, 117);
+}
+.parent{
+    padding: 55px;
+}
+
+/* for mobile */
+@media (max-width: 768px){
+    .child1{
+        align-items: center;
+        text-align: center;
+    }
+}
+/* mobile end */
+
+/* for tab */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .child1{
+        align-items: start;
+    }
+}
+/* tab end */
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    button{
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+    h2{
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    }
+
+h2{
+    text-align: center;
+    padding: 25px;
+}
+
+.child4{
+    display: flex;
+    border: solid 2px;
+    border-radius: 55px;
+    padding: 40px;
+    text-align: center;
+    justify-content: center;
+}
+
+/* for mobile */
+@media (max-width: 768px){
+    .child4{
+        margin: 10px;
+    }
+}
+/* mobile end */
+
+/* for tab */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .child4{
+        margin: 10px;
+    }
+}
+/* tab end */
+
+
+.image1{
+    width: 100%;
+    border-radius: 55px;
+}
+
+/* for mobile */
+@media (max-width: 768px){
+    .image1{
+        margin: 10px;
+    }
+}
+/* mobile end */
+
+/* for tab */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .child4{
+        margin: 10px;
+    }
+}
+/* tab end */
+
+footer{
+    text-align: center;
+    margin: 55px;
+}
+
+.sec1{
+    padding: 55px;
+    display: flex;
+}
+
+h3 {
+    margin: 50px;
+    text-align: center;
+}
+
+form {
+    border: solid black;
+}
+
+
+/* @media (min-width: 576px) {
+        .list{
+            padding: 15px;
+            margin: 5px 50px;
+            list-style: none;
+            border: solid #090b0b;
+            display: grid;
+            font-weight: bold;
+            justify-content: center;
+            grid-template-columns: 1fr ;
+    }
+} */
